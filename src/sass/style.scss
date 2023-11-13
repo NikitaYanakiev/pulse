@@ -8,9 +8,6 @@
 @import 'base/mixins';
 @import 'base/animations';
 
-html{
-    scroll-behavior: smooth;
-}
 
 *{
     font-family: 'Museo Sans';
@@ -36,3 +33,4 @@ html{
 @import 'blocks/footer';
 @import 'blocks/modal';
 @import 'blocks/pageup';
+@import 'blocks/preloader';

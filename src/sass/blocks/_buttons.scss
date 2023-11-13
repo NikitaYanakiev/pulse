@@ -8,11 +8,9 @@
     font-weight: 500;
     font-size: 12px;
     text-transform: uppercase;
-    transition: 0.5s all;
+    transition:all 0.3s ease;
     &:hover{
-        color: $main_color;
-        background-color: #FFFFFF;
-        box-shadow: 3px 3px 20px #000000;
+        background-color: #730505;
         border:none;
     }
     &_main{
@@ -35,7 +33,7 @@
         height: 44px;
         font-size: 14px;
         &:hover{
-            box-shadow: 3px 3px 10px #000000;
+            
         }
     }
 }

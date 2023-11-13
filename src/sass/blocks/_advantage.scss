@@ -20,12 +20,22 @@
         max-width: 70px;
         margin: 0 auto;
         margin-bottom: 30px;
-        &__animated{
+        &_heart{
             display: block;
             width: 100%;
             animation: heartbeat 1.5s ease infinite;
         }
+        &_shoe {
+            display: block;
+            width: 100%;
+            animation: jump 1.5s ease infinite;
         }
+        &_cup {
+            display: block;
+            width: 100%;
+            animation: rotate 1.5s ease infinite;
+        }
+    }
     &__subheader{
         font-weight: 700;
         font-size: 18px;
